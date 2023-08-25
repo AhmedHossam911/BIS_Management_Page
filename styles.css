@@ -523,7 +523,7 @@ footer {
   }
 
   .open-popup-button {
-    width: calc(50% - 10px);
+    width: calc(100% - 10px);
     margin: 5px;
     padding: 15px;
     font-size: 12px;
