@@ -163,6 +163,7 @@ body {
 .open-popup-button:hover {
   background-color: rgb(137, 137, 137);
   transform: scale(1.2);
+  width: 100%;
 }
 .buttonIMG {
   width: 150px; 
