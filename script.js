@@ -193,3 +193,16 @@ submitButton.addEventListener('click', () => {
 
 }
 //end of script
+
+// sscript for rotate-message but.
+{
+document.addEventListener('DOMContentLoaded', function () {
+  const rotateMessage = document.querySelector('.rotate-message');
+  const closeRotateMessageButton = document.getElementById('closeRotateMessage');
+
+  closeRotateMessageButton.addEventListener('click', function () {
+    rotateMessage.style.display = 'none';
+  });
+});
+}
+//end of script
