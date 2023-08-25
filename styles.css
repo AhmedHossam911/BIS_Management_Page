@@ -451,14 +451,28 @@ footer {
   z-index: 999;
 }
 
+.rotate-message button {
+  display: block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #172533;
+  color:white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.rotate-message button :hover{
+  background-color: #101a24;
+}
 /* Media query for screens */
-@media (max-width: 1847px) {
+@media (max-width: 1847px)  {
   footer {
     position: relative;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (orientation: portrait) {
   /* Navbar responsive */
   .navbar {
     flex-direction: column;
