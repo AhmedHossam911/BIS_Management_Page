@@ -521,6 +521,7 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     margin-top: 20px;
+    padding: 10px;
   }
 
   .open-popup-button {
